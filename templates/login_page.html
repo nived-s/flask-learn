@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <form action="{{ url_for('print_uname_pass') }}" method="POST">
+            <label for="uname">User Name:</label>
+            <input type="text", name="uname">
+            <br>
+
+            <label for="upassword">Password:</label>
+            <input type="text", name="upassword">
+
+            <button type="submit">Login</button>
+        </form>
+
+    </body>
+</html>
